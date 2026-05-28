@@ -42,8 +42,8 @@ Infraestrutura em nuvem conjunto de componentes de hardware e
 software necessários para hospedar e
 executar aplicativos, armazenar dados e gerenciar redes na internet.
 
-##Dificuldades encontradas
-Conectar o meu repositori do github no meu computador. 
+## Dificuldades encontradas
+Conectar o meu repositorio do github no meu computador. 
 
 ## Proximos Passos 
 Aprender Sempre.
