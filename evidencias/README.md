@@ -12,6 +12,15 @@ Criou-se o diretorio principal 'linux-seguranca-cloud/' como dois diretorios
 diretorio evidencias junto com os seguintes ficheiros: 'comandos-topico-01.txt'
 e o 'README.md' que ira ser carregado no github.
 
+.
+|-- evidencias
+|   |-- README.md
+|   |-- ambiente.md
+|   `-- comando-topico01.txt
+`-- produto-final
+
+
+
 ## Comandos Executados
 ls - listagem de ficheiros e diretorios
 pwd - mostra em que diretorio o utilizador se encontra
@@ -34,8 +43,7 @@ software necessários para hospedar e
 executar aplicativos, armazenar dados e gerenciar redes na internet.
 
 ##Dificuldades encontradas
-Em definir Infraestrutura em nuvem. Tive ir ao recurso ChatGpt. Do resto tudo 
-bem. 
+Conectar o meu repositori do github no meu computador. 
 
 ## Proximos Passos 
-Tudo tranquilo
+Aprender Sempre.
