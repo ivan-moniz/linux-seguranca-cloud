@@ -1,0 +1,11 @@
+ls - comando utilizado para fazer listagem do corrente diretorio
+cd - change directory utilizado para mudar de um diretorio para outro
+touch - criar um novo ficheiro. 
+mkdir - utilizado para criar um novo diretorio
+apt install - utilizado para instalar software/aplicativos necessarios.
+apt update - comando utilizado para atualizacao do sistema do pacote. 
+apt upgrade - utilizado para atualizar o sistema operativo
+nano - para edicao de ficheiros. 
+cat - para fazer listagem do conteudo no ficheiro. 
+pwd - para ver em que diretorio o utilizador esta
+
