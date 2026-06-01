@@ -19,7 +19,7 @@ Tambem tive que ir pesquisar para recordar como introduzir ficheiros como imagen
 
 ## Estado do serviço SSH
 A imagem a seguir descreve o estado em que se encontra o servico ssh. 
-![PrintSSH](~/linux-seguranca-cloud/topico-02-individual/ssh.png)
+![PrintSSH](ssh.png)
 
 ## Endereço identificado
 Consegui identificar o endereco de ip mas, nao vou disponbiliza-lo no documento por questoes de seguranca. 
