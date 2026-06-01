@@ -1,0 +1,32 @@
+# Acesso remoto por SSH
+## O que é SSH?
+SSH - Secure Shell e um protocolo de rede utilizado para acessar o seu computador/servidor de forma remota e segura via internet. 
+
+## Que informação seria necessária para aceder a um servidor por SSH?
+- **Utilizador:**
+- **Endereço IP:**
+- **Palavra-passe ou chave:**
+
+## Exemplo de comando de ligação
+`ssh root@174.35.0.3`
+
+
+## Limitação encontrada
+Nao encontrei limitacao em conectar com o SSH so tive dificuldades em copiar ficheiros do meu laptop para o servidor via ssh. 
+Tambem tive que ir pesquisar para recordar como introduzir ficheiros como imagens com markdown via nano. 
+
+# Acesso remoto por SSH
+
+## Estado do serviço SSH
+A imagem a seguir descreve o estado em que se encontra o servico ssh. 
+![ssh.png]
+
+## Endereço identificado
+Consegui identificar o endereco de ip mas, nao vou disponbiliza-lo no documento por questoes de seguranca. 
+Partilharei um endereco que inventado que se encontra em cima `174.35.0.3`.
+
+## Comando de ligação
+`ssh user@174.35.0.3`
+
+## Resultado obtido
+

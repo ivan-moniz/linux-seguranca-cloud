@@ -1,0 +1,17 @@
+whomai - mostra o respetivo utilizador que esta logado ou que acessou a conta. 
+ivan
+
+id - apresenta como resultado o id do utilizador a que o respetivo utilizador pertence. 
+uid=1000(ivan) gid=1000(ivan) groups=1000(ivan),27(sudo),100(users)
+
+groups - mostra os respetivos grupos de utilizadores existentes no sistema. 
+
+ivan sudo users
+
+
+drwxrwxr-x 3 ivan ivan 4096 May 31 21:44 ./
+drwxr-x--- 4 ivan ivan 4096 May 31 21:35 ../
+-rw-rw-r-- 1 ivan ivan    0 May 31 18:49 acesso-remoto.md
+-rw-rw-r-- 1 ivan ivan  338 May 31 21:43 comandos-utilizados.txt
+-rw-rw-r-- 1 ivan ivan    0 May 31 18:49 permissoes.md
+drwxrwxr-x 2 ivan ivan 4096 May 31 21:44 teste/
