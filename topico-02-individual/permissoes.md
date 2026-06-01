@@ -4,16 +4,16 @@ VPS Linode
 
 ## Utilizadores e grupos
 **whoami** mostra o respetivo utilizador que esta logado ou que acessou a conta.
-![8.png]
+![whoamiprint](8.png)
 
 **pwd** apresenta o caminho do directorio onde se encontra.
-![7.png]
+![pwdprint](7.png)
 
 **groups** mostra os respetivos grupos de utilizadores existentes no sistema.
-![10.png]
+![groupsprint](10.png)
 
 **id** apresenta como resultado o id do utilizador a que o respetivo utilizador faz parte.
-![11.png]
+![idprint](11.png)
 
 
 ## Permissões aplicadas
