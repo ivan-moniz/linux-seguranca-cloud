@@ -4,7 +4,7 @@
 O hardening inicial do sistema consiste em conjunto de ações realizadas num de modo a torna-lo mais seguro, forte e menos vunerável a ataques. 
 
 ## Serviço Publicado
-- Apache2(HTTP/HTTPS)
+- **Apache2(HTTP/HTTPS)**
 - Sem Wordpress 
 - Sem Nginx
 

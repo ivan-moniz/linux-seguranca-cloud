@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root {
+    --pretu: #221F1F;
+    --burmedju: #B20707;
+    --branku: #ffffff;
+    --sinzentu: #ffffffb3;
+}
+
+hr {
+    background-color: var(--pretu);
+}
+
+span {
+    font-weight: bold;
+}
+
+.konpu_imaji {
+    background-image: url('../imagens/luxurious-car-parked-highway-with-illuminated-headlight-sunset.jpg');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #eee;
+}
+
+.konpu_container_burmedju > .konpu_anos {
+    font-weight: 300;
+    padding-left: 0;
+    color: var(--pretu);
+}
+
+.konpu_container > .konpu_heading {
+    padding-top: 2rem;
+}
+
+.anos_kenha {
+    background-color: #eee;
+    padding: 8rem 9.5rem 8rem 9.5rem;
+}
+
+.anos_kenha_heading {
+    padding: 2rem 0;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.anos_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+}
+
+.anos_grid_un,
+.anos_grid_dos {
+    border-left: 2px solid var(--pretu);
+    padding: 0 1.5rem;
+}
+
+.anos_grid_un > p,
+.anos_grid_dos > p {
+    padding: .5rem 0;
+}
+
+.btn_anos {
+    color: var(--pretu);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 1s ease-in-out;
+}
+
+.btn_anos:hover {
+    color: var(--burmedju);
+}
+
+.grid_spirensia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    padding: 5rem 0;
+}
+
+.imaji_spirensia > img {
+    width: 100%;
+}
+
+.spirensia {
+    background-color: var(--pretu);
+    padding: 8rem 9.5rem 8rem 9.5rem;
+}
+
+.spirensia > h1 {
+    font-size: 2.8rem;
+    color: var(--branku);
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+}
+
+.spirensia > p {
+    border-left: 2px solid var(--branku);
+    padding: 0 1.5rem;
+    color: var(--branku);
+}
+
+.sitason_spirensia > p {
+    color: var(--branku);
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 3rem;
+}
+
+.sitason_spirensia > div > a {
+    color: var(--pretu);
+    background-color: var(--branku);
+    padding: 1rem 5rem;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+}
+
+.sitason_spirensia > div > a:hover {
+    color: var(--branku);
+    background-color: var(--burmedju);
+}
+
+.scroll {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: var(--burmedju); /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+.boton_subi_riba {
+    background-color: var(--burmedju);
+    color: var(--branku);
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 280px ) and (max-width: 416px) {
+    .konpu_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 0;
+    }
+
+    .konpu_container {
+        background-color: #eee;
+        padding-top: 0;
+    }
+    .konpu_imaji {
+        width: 100%;
+        background-size: contain;
+        background-color: var(--branku);
+        margin: 0;
+        height: 45vh;
+    }
+    .konpu_container_burmedju > p {
+        padding: 0;
+    }
+
+    .anos_kenha {
+        padding: 3rem 2rem;
+        background-color: var(--branku);
+    }
+
+    .anos_kenha_heading {
+        font-size: 1.8rem;
+        padding: 0rem 0;
+    }
+
+    .anos_grid {
+        grid-template-columns: 1fr;
+        padding-top: 1rem;
+    }
+
+    .spirensia {
+        padding: 3rem 2rem;
+    }
+
+    .spirensia > h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .grid_spirensia {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .sitason_spirensia > p {
+        font-size: 1.45rem;
+    }
+
+    .sitason_spirensia > div > a {
+        padding: 1rem 2rem;
+        font-size: .8rem;
+    }
+
+    
+
+}
