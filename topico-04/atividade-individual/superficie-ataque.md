@@ -15,7 +15,7 @@ Pode ser confirmado na imagem abaixo:
 ## Portas abertas ou Observadas
 
 - **Porta 80/tcp** - serviços web
-- **Porta 725/tcp** - serviço ssh alterada por questão de segurança
+- **Porta 2222/tcp** - serviço ssh alterada por questão de segurança
 - **Porta 22/tcp** - serviço ssh padrão de se encontra **desligada**.
 - **Porta 2048/tcp** - utilizado para teste de mudança de porta ssh mas se encontra **desligada**.
 
