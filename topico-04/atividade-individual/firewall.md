@@ -1,7 +1,8 @@
 # Nivel 2 - Intermédio Configuração de Firewall 
 
 ## Data
-$(date +%Y-%m-%d)
+Wed Jun 10 01:36:25 AM UTC 2026
+
 
 ## Verificação de estado de UFW. 
 

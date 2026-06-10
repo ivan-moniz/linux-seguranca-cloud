@@ -1,21 +1,22 @@
 # Validação do Firewall
 
 ## Data
-$(date)
+Wed Jun 10 01:33:28 AM UTC 2026
+
 
 ## Ativação SSL Apache
 
 Instalação, ativação de um certificado teste.
-`sudo a2enmod ssl`
-`sudo a2ensite default-ssl`
-`sudo systemctl reload apache2`
+- `sudo a2enmod ssl`
+- `sudo a2ensite default-ssl`
+- `sudo systemctl reload apache2`
 
 
 ## Ativação de Firewall
 
-`sudo ufw enable` - ativação de firewall
-`sudo ufw status` - estado do firewall
-`sudo ufw allow 443/tcp` - abertura da porta 443 para acesso com a camada de segurança e o certificado ssl.
+- `sudo ufw enable` - ativação de firewall
+- `sudo ufw status` - estado do firewall
+- `sudo ufw allow 443/tcp` - abertura da porta 443 para acesso com a camada de segurança e o certificado ssl.
 [!Firewall](evidencias/firewall.png)
 
 
