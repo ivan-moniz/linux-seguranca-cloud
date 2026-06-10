@@ -1,7 +1,7 @@
 # Validação do Firewall
 
 ## Data
-$(date +%Y-%m-%d)
+$(date)
 
 ## Ativação SSL Apache
 
