@@ -1,0 +1,9 @@
+sudo apt update 
+sudo apt upgrade
+sudo ufw status
+systemctl list-units --type=service --state=running - verificar serviços a serem executados no sistema
+sudo systemctl ssh - reiniciar o serviço ssh
+sudo ufw reject PORTA bloquear porta não necessários.
+ufw allow PORTA/tcp - permite abertura de porta
+ssh user@172.345.111.222 - acessar remotamente o maquina. 
+
